@@ -1,0 +1,73 @@
+\documentclass{beamer} % [14pt]
+\setbeamertemplate{bibliography item}[text] % 参考文献编号
+\usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{multicol} % 引入multicols宏包
+% \usepackage{enumitem} % 引入enumitem宏包，可设置间距
+\usepackage{setspace} % 引入setspace宏包
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{wrapfig}  % 图片放侧边
+\usepackage[absolute,overlay]{textpos} % 避开，防止重合区域
+\usepackage{tikz}
+
+\definecolor{NJUPurple}{rgb}{0.28235, 0.28235, 0.62745}%设置主题颜色
+\colorlet{LightNJUPurple}{white!60!NJUPurple}
+\colorlet{SuperLightNJUPurple}{white!90!NJUPurple}
+% 定义哈尔滨工程大学的主题色
+\definecolor{HEUred}{RGB}{220, 20, 60}   % 红色
+\definecolor{HEUblue}{RGB}{0, 102, 204}  % 蓝色
+\definecolor{HEUwhite}{RGB}{255, 255, 255} % 白色
+
+\mode<presentation>{
+	\usetheme{Madrid}
+}
+
+\setbeamersize{text margin left=1cm,text margin right=1cm}
+% \logo{\includegraphics[height=2cm]{./imgs/heu_logo_4.jpg}}
+% C:\Users\Yuntao\LaTeX_Project
+\title{组会报告}
+\author[张云涛]{\noindent 张云涛 B42300018}
+\institute[HEU]{
+%	\noindent 导师：姚竞争 副教授 \\
+%	\medspace
+%	\noindent \textit{zhyuntao@hrbeu.edu.cn} \\
+	哈尔滨工程大学
+}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+	\frame{研究背景}
+	研究背景、目的、意义 \\
+	国内外研究现状
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{研究方案}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{技术路线}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{仿真实验}
+	
+\end{frame}
+
+
+% 谢辞部分
+\section*{Acknowledgement}  
+\begin{frame}
+	\frametitle{Acknowledgement}
+	\textcolor{NJUPurple}{\Huge{\centerline{Thank you!}}}
+\end{frame}
+
+
+\end{document}
